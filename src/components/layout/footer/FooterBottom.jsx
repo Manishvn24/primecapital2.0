@@ -22,6 +22,15 @@ const FooterBottom = () => {
           >
             Terms & Conditions
           </Link>
+          <p className=" text-slate-400 hover:text-[#D4AF37] transition-colors">
+            Built with ♥ by MT
+            <a
+              href="https://www.instagram.com/manishxthakur7/?__d=dist"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline-offset-2 hover:underline"
+            ></a>
+          </p>
         </div>
       </div>
     </div>

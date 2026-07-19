@@ -28,6 +28,7 @@ const Topbar = () => {
               key={idx}
               icon={<item.icon size={14} className=" text-[#D4AF37]" />}
               text={item.text}
+              href={item.href}
             />
           ))}
         </div>

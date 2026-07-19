@@ -5,7 +5,7 @@ import LoanCarousal from "./LoanCarousal";
 
 const LoanProducts = () => {
   return (
-    <section className="mt-12">
+    <section id="loan-products" className="mt-12 scroll-mt-32">
       <Container>  
           <LoanSanctionHeader />
           <div className="mt-12">

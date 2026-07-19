@@ -5,7 +5,7 @@ const PhoneInput = ({ value, onChange }) => {
     const digits = e.target.value.replace(/\D/g, "").slice(0, 10);
     onChange(digits);
   };
-
+  
   return (
     <div className="space-y-1">
       <label className="block text-sm font-medium text-gray-600">

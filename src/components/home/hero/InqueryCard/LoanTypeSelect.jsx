@@ -3,12 +3,10 @@
 const loanTypes = [
   { value: "personal", label: "Personal Loan", icon: "👤" },
   { value: "business", label: "Business Loan", icon: "🏢" },
-  { value: "home", label: "Home Loan", icon: "🏠" },
-  { value: "vehicle", label: "Vehicle Loan", icon: "🚗" },
   { value: "education", label: "Education Loan", icon: "🎓" },
-  { value: "doctor", label: "Doctor / Professional Loan", icon: "⚕️" },
+  { value: "doctor", label: "Doctor", icon: "⚕️" },
+  { value: "profession", label: "Professional Loan", icon: "👨‍💼" },
 ];
-
 const LoanTypeSelect = ({ value, onChange }) => {
   return (
     <div className="space-y-1">

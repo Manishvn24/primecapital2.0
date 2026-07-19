@@ -1,11 +1,10 @@
-import Header from "@/components/layout/Header"
-import Navbar from "@/components/layout/Navbar"
+import Footer from "@/components/layout/footer/Footer";
 
-const layout = () => {
+export default function MarketingLayout({ children }) {
   return (
-    <div>
-        <Header/>
-    </div>
-  )
+    <>
+      {children}
+      <Footer />
+    </>
+  );
 }
-export default layout

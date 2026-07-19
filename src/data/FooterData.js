@@ -12,10 +12,6 @@ export const loanProducts = [
     href: "/loan-products/personal-loan",
   },
   {
-    name: "Home Loan",
-    href: "/loan-products/home-loan",
-  },
-  {
     name: "Loan Against Property",
     href: "/loan-products/lap",
   },
@@ -36,29 +32,29 @@ export const companyLinks = [
   },
   {
     name: "Careers",
-    href: "/careers",
+    href: "#",
   },
   {
     name: "Blogs",
-    href: "/blogs",
+    href: "#",
   },
 ];
 
 export const resources = [
   {
     name: "FAQ",
-    href: "/faq",
+    href: "#faq",
   },
   {
     name: "EMI Calculator",
-    href: "/emi-calculator",
+    href: "#",
   },
   {
     name: "Privacy Policy",
-    href: "/privacy-policy",
+    href: "/#",
   },
   {
     name: "Terms & Conditions",
-    href: "/terms-and-conditions",
+    href: "/#",
   },
 ];

@@ -18,17 +18,22 @@ const FooterBrand = () => {
       </p>
 
       <div className="mt-8 space-y-4">
-        <div className="flex items-center gap-3">
+        <a
+          href="tel:6265118905"
+          className="flex items-center gap-3 hover:text-[#D4AF37] transition-colors"
+        >
           <Phone className="h-5 w-5 text-[#D4AF37]" />
           <span>+91 6265118905</span>
-        </div>
-
-        <div className="flex items-center gap-3">
+        </a>
+        <a
+          href="mailto:support@vnprimecapital.com"
+          className="flex items-center gap-3 hover:text-[#D4AF37] transition-colors"
+        >
           <Mail className="h-5 w-5 text-[#D4AF37]" />
           <span>support@vnprimecapital.com</span>
-        </div>
+        </a>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 hover:text-[#D4AF37] transition-colors">
           <MapPin className="h-5 w-5 text-[#D4AF37]" />
           <span>Jabalpur, Madhya Pradesh</span>
         </div>

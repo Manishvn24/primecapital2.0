@@ -1,4 +1,3 @@
-
 import Navbar from "./Navbar";
 import Topbar from "./Topbar";
 
@@ -8,7 +7,7 @@ const Header = () => {
       className="sticky top-0 z-50"
     >
       <Topbar />
-      <Navbar />
+      <Navbar/>
     </header>
   );
 };

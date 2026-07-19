@@ -12,7 +12,6 @@ const Footer = () => {
             <FooterBrand />
             <FooterLinks />
           </div>
-
           <FooterBottom />
         </div>
       </Container>
