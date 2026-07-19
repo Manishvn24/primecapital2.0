@@ -13,11 +13,11 @@ export const loanProducts = [
   },
   {
     name: "Loan Against Property",
-    href: "/loan-products/lap",
+    href: "/loan-products/loan-against-property",
   },
   {
     name: "Overdraft Facility",
-    href: "/loan-products/overdraft",
+    href: "/loan-products/overdraft-facility",
   },
 ];
 
