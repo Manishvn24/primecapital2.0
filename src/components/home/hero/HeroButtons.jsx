@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
-import LeadDialog from "../Lead-Modal/LeadDialog";
+
 import LeadModal from "../Lead-Modal/LeadModal";
 
 

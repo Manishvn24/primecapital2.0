@@ -32,9 +32,10 @@ const Navbar = () => {
             <Navigation />
           </div>
           <div className="flex flex-1 justify-end items-center gap-3">
+             <LeadModal trigger={
             <div className="hidden lg:block">
-              <LeadModal trigger={<Action />} />
-            </div>
+            < Action />
+            </div>} />
             <button
               onClick={() => setMobileMenuOpen(true)}
               className="lg:hidden"
