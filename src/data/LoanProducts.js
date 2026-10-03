@@ -10,7 +10,7 @@ export const loanProducts = {
       "Whether you're expanding operations, purchasing machinery, hiring talent, or improving cash flow, our Business Loan solutions provide quick access to funds with competitive interest rates and flexible repayment options.",
     defaultLoanType: "Business Loan",
     highlights: [
-      { label: "Interest Rate", value: "Starting from 9.99% p.a." },
+      { label: "Interest Rate", value: "Starting from 8.50% p.a." },
       { label: "Processing Time", value: "Within 48 Hours" },
       { label: "Paperwork", value: "Minimal Documentation" },
       { label: "Support", value: "Dedicated Relationship Manager" },
@@ -168,7 +168,7 @@ export const loanProducts = {
       "Leverage your owned property to access high-value funding at lower interest rates than unsecured loans. Ideal for business growth, debt consolidation, or major personal expenses, with long repayment tenures.",
     defaultLoanType: "Loan Against Property",
     highlights: [
-      { label: "Interest Rate", value: "Starting from 9.99% p.a." },
+      { label: "Interest Rate", value: "Starting from 8.50% p.a." },
       { label: "Processing Time", value: "Within 7-10 Days" },
       { label: "Paperwork", value: "Minimal Documentation" },
       { label: "Support", value: "Dedicated Relationship Manager" },
@@ -198,47 +198,53 @@ export const loanProducts = {
     ],
     faq: "loanAgainstProperty",
   },
-
   "overdraft-facility": {
     slug: "overdraft-facility",
     title: "Overdraft Facility",
     shortDescription:
-      "A revolving credit line against your property or business assets — pay interest only on the amount you use.",
+      "A pre-approved, unsecured credit limit you can use whenever you need funds. Withdraw only what you need and pay interest only on the amount you use.",
     overview:
-      "An Overdraft Facility gives your business a standing credit line for working capital needs. Withdraw as required, repay flexibly, and pay interest only on the utilized amount — ideal for managing cash flow cycles.",
+      "An Overdraft (OD) facility gives you access to a pre-approved credit limit that you can use whenever you need funds. Unlike a regular loan, you don't have to take the entire amount at once. You can withdraw only the amount you need and pay interest only on the amount you actually use.\n\n" +
+      "For example: Suppose you have an OD limit of ₹20 lakh. If you currently need only ₹5 lakh, you can use ₹5 lakh instead of taking the full ₹20 lakh. Interest is charged on the ₹5 lakh you have used, not on the entire ₹20 lakh limit.\n\n" +
+      "As you repay the amount you've used, the available limit can become available again, subject to the terms of the facility.\n\n" +
+      "In simple words: OD gives you flexible access to funds when you need them, without requiring you to use the entire approved limit at once.",
     defaultLoanType: "Overdraft Facility",
     highlights: [
       {
         label: "Interest Rate",
         value: "Starting from 9.99% p.a. on utilized amount",
       },
+      { label: "Security", value: "Unsecured, no collateral required" },
       { label: "Processing Time", value: "Within 5-7 Days" },
       { label: "Paperwork", value: "Minimal Documentation" },
       { label: "Support", value: "Dedicated Relationship Manager" },
     ],
     benefits: [
-      "Interest only on amount utilized",
-      "Revolving credit line",
-      "Flexible withdrawal and repayment",
-      "Competitive interest rates",
+      "Unsecured, no collateral required",
+      "Use funds as and when required",
+      "Interest is generally charged on the amount utilized",
+      "Flexibility to withdraw and repay within the approved limit",
+      "Useful for managing short-term financial requirements and cash flow",
+      "Higher limits may be available for eligible professionals and businesses",
       "Dedicated relationship manager",
       "Pan India service",
     ],
     eligibility: [
       "Business Owners",
-      "Professionals - Doctors/CA/",
-      "Salaried"
+      "Professionals (Doctors, CAs)",
+      "Salaried Individuals",
     ],
     documents: [
-      "PAN Card",
       "Aadhaar Card",
-      "Business Proof",
-      "Bank Statements (12 months)",
+      "PAN Card",
+      "Doctors: Medical Registration Certificate",
+      "CAs: Certificate of Practice (COP)",
+      "Business Owners: Gumasta / Business Registration",
+      "Salaried: Latest Salary Slips",
     ],
     faq: "overdraftFacility",
   },
 };
-
 
 
 export function getLoanProduct(slug) {
