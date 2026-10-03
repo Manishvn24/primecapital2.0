@@ -198,6 +198,8 @@ export const loanProducts = {
     ],
     faq: "loanAgainstProperty",
   },
+
+
   "overdraft-facility": {
     slug: "overdraft-facility",
     title: "Overdraft Facility",
@@ -215,9 +217,8 @@ export const loanProducts = {
         value: "Starting from 9.99% p.a. on utilized amount",
       },
       { label: "Security", value: "Unsecured, no collateral required" },
-      { label: "Processing Time", value: "Within 5-7 Days" },
+      { label: "Processing Time", value: "Within 48 Hours" },
       { label: "Paperwork", value: "Minimal Documentation" },
-      { label: "Support", value: "Dedicated Relationship Manager" },
     ],
     benefits: [
       "Unsecured, no collateral required",
